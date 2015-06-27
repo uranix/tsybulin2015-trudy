@@ -17,32 +17,31 @@
 \usepackage{nicefrac}
 \usepackage{wrapfig}
 \usepackage{fancybox}
+\usepackage{multirow}
 
 \usepackage[pdftex, left=1in, right=1in, top=1in, bottom=2cm]{geometry}
 
 \usepackage{mycommon}
 \usepackage{style}
 
-\newcommand{\issuemark}{ТРУДЫ МФТИ.~--- 2012.~--- Том 4, \textnumero~1}
+\newcommand{\issuemark}{ТРУДЫ МФТИ.~--- 2014.~--- Том 6, \textnumero~1}
 \setcounter{MaxMatrixCols}{35}
 
 \sloppy
 
-
 \begin{document}
-
 
 \selectlanguage{russian}
 
+\author[1]{И.\,О.}{Фамилия}
+\author[2]{И.\,О.}{Фамилия}
 
-\author{И.\,О.}{Фамилия}
-
-\affil{Место работы 1}
-\affil{Место работы 2}
+\affil[1]{Место работы 1}
+\affil[2]{Место работы 2}
 
 \title{Название статьи}
 
-\inputarticle[УДК]{shablon}{И.\,О. Фамилия}
+\inputarticle[УДК]{familia}{И.\,О. Фамилия, И.\,О. Фамилия}
 
 
 \include{summaries}
